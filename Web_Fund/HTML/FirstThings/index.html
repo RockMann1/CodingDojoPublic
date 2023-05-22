@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World!!!</h1>  
+    <img src=catthanksgiving.jpg alt="Cat eating Thanksgiving">
+    <p>Things and stuff and things are all over the place!!!</p>
+    <p>Things and stuff and things are all over the place!!!</p>
+    <p>Things and stuff and things are all over the place!!!</p>
+    <a href="www.codingdojo.com">HOMEE</a>
+    <p> Some paragraph content. </p>
+<!-- This is a comment -->
+</body>
+</html>
+
+
+<h1>Most important</h1>
+<h2>h2</h2>
+<h3>h3</h3>
+<h4>h4</h4>
+<h5>h5</h5>
+<h6>least important header</h6>
+
+<p>This is a paragraph.</p>
+<p>This is a second paragraph.</p>
+<p>This is a paragraph.</p>
+<p>This is a second paragraph.</p>
+
+<!-- Hyperlink -->
+<a href="http://login.codingdojo.com">Learn Platform</a>
+
+<p><em>This</em> is an <strong>example!</strong></p>
+
+<ul>
+    <li>Dog</li>
+    <li>Cat</li>
+    <li>Dragon</li>
+    <li>Monkey</li>
+</ul>
+
+<ol>
+    <li>Dog</li>
+    <li>Cat</li>
+    <li>Dragon</li>
+    <li>Monkey</li>
+</ol>
+
+<table>
+    <tr>
+        <th>Movie</th>
+        <th>Year</th>
+        <th>Rating</th>
+    </tr>
+    <tr>
+        <td>Up</td>
+        <td>2009</td>
+        <td>PG</td>
+    </tr>
+    <tr>
+        <td>The Matrix</td>
+        <td>1999</td>
+        <td>R</td>
+    </tr>
+</table>
+
+<img src="panda.jpg" alt="panda pic">
+
+<video src="monkey2.mp4" controls></video>
+
+<video src="monkey2.mp4" autoplay loop muted></video>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Hello World! </title>
+    </head>
+    <body>
+        <h1> Here is a heading tag </h1>
+        <p> Now a paragraph tag </p>
+    </body>
+</html>
+
+<!--Inputs-->
+<input type="text" name="first_name">
+
+<input type="number" name="age">
+
+<input type="password" name="password">
+
+<input type="date" name="dob">
+
+<input type="color" name="text_color">
+
+<input type="radio" name="font" value="bold" id="bold">
+<label for="bold"><strong>Bold</strong></label>
+<input type="radio" name="font" value="normal" id="normal">
+<label for="normal">Normal</label>
+
+<input type="checkbox" name="accept" id="accept">
+<label for="accept">I agree</label>
+
+<textarea name="comment" cols="20" rows="3"></textarea>
+
+<select name="snack">
+    <option value="Almonds">Almonds</option>
+    <option value="Cheese and Crackers">Cheese and Crackers</option>
+    <option value="Pita and Hummus">Pita and Hummus</option>
+    <option value="Pears">Pears</option>
+</select>
+
+<!--Forms typically have some more tags than just the inputs. 
+Commonly they are used with label, div as well as a button 
+(<input type="submit" value="Button Text" >) to submit the form. We don't need to worry too much about the action or the method yet. 
+They will become important once we start working with a back-end server.-->
+
+<form action="/process" method="post">
+    <div>
+        <label>Name: </label>
+        <input type="text" name="name" 
+        placeholder="Your name..." >
+    </div>
+    <div>
+        <label>Email: </label>
+        <input type="text" name="email" 
+        placeholder="Your email..." >
+    </div>
+    <div>
+        <input type="checkbox" name="offers" 
+        id="offers" checked >
+        <label for="offers">I would like 
+        to receive email offers!</label>
+    </div>
+    <input type="submit" value="Sign Up!" >
+</form>
+
+<form action="/process" method="post">
+    <div>
+        <label>Name: </label>
+        <input type="text" name="name" 
+        placeholder="Your name..." >
+    </div>
+    <div>
+        <label>Email: </label>
+        <input type="text" name="email" 
+        placeholder="Your email..." >
+    </div>
+    <div>
+        <input type="checkbox" name="offers" 
+        id="offers" checked >
+        <label for="offers">I would like 
+        to receive email offers!</label>
+    </div>
+    <input type="submit" value="Sign Up!" >
+</form>
+
+<!--BadCode-->
+<html>
+    <h1> Hello World! </h1>
+    <p> This is my first website </p>
+</html>
+
+<!--GoodCode-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My First Website </title>
+    </head> 
+    <body>
+        <h1> Hello World! </h1>
+        <p> This is my first website </p>
+    </body>
+</html>
+
+<!--Use lowercase letters within element names, 
+attributes, and values.
+Indent nested elements. 
+Use double quotes, not single or completely 
+omitted quotes to store
+in values for HTML attributes. 
+Good example:-->
+
+<h1 id="page_title">My First Website!</h1>
+<p class="sub_title">This is <span class="emphasize">Cool!</span></p>
+
+<!--Avoid Using Too Many divs!
+Bad Code-->
+
+<div class="container">
+    <div class="article">
+        <div class="headline"> HTML Rocks! </div>
+    </div>
+</div>
+
+<!--GoodCode-->
+<div class="container">
+    <article>
+        <h1>HTML Rocks!</h1>
+    </article>
+</div>
+
+

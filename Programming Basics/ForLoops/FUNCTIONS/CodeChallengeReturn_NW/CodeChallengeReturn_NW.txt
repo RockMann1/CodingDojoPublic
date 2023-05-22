@@ -1,0 +1,101 @@
+Code Snip 1:
+
+hello | 'hello'
+      | 'Dojo'
+
+'Dojo' is printed, not hello.  'Hello' was not stored in return.
+
+Code Snip 2:
+
+hello  | 15
+result | 15
+
+Output will be 'hello' 'result is'15.
+
+Code Snip 3:
+
+numPlus  | 
+num      | 3 + 15 = 18
+result   |
+
+Output is 'num is'3 'result is'18
+
+Code Snip 4:
+
+num    |   15
+num    |   
+
+Output will be 15, 10, 10, 15
+
+Code Snip 5:
+
+num        |  15
+timestwo   |  10 console.log comes before multiplication in function
+result     |  20
+
+
+Output will be 15, 10, 20, 15
+
+Code Snip 6
+
+timesTwoAgain | 6 + 10
+num           | 3, 5
+y             | 6  10
+
+Output will be:
+num is 3
+num is 5
+result is 16
+
+Code Snip 7
+
+sumNums  |
+num1     | 2 + 3 = 5
+num2     | 3 + 5 = 8
+
+Output will be:
+5
+8
+
+Code Snip 8
+
+printSumNums  | 2 , 3
+num1          | 2 + 3 = 5
+num2          | 3 + 5 = 8
+
+Output will be:
+2
+5
+3
+8
+
+Code Snip 9
+
+sumNums  |  
+sum      | 5
+num1     | 2
+num2     | 3
+result   | 
+
+Output is:
+sum is 5
+sum is 8
+result is 13
+
+Code Snip 10
+
+sumNums   |
+sum       |  5+6+8
+num1      |
+num2      |
+result = 
+
+Output is:
+sum is 5
+sum is 3
+sum is 6
+sum is 3
+sum is 5
+sum is 8
+result is 19
+

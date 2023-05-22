@@ -1,0 +1,102 @@
+/*Reset CSS*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*TitleBar*/
+.nav {
+    height: 65px;
+    background-color: black;
+    display:flex;
+    
+}
+
+.nav-title {
+    margin: 10px;
+    margin-left: 25px;
+    text-align: center;
+    color: aliceblue;
+}
+
+body {
+    margin: 0 100px;
+    font-family: "Comic Sans MS";
+}
+
+.feed {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/*UserBoxes*/
+
+img {
+    width: 65px;
+    margin: 15px;
+    margin-left: 40px;
+    /*margin-top: 10px;*/
+}
+
+.YourFeedBox{
+    display: flex;
+}
+
+.LeftAvatarBox {
+    display: inline;
+    height: 200px;
+    width: 15%;
+    border: 4px solid black;
+    margin: 10px;
+}
+
+.LeftAvatarBox a {
+    white-space: nowrap;
+    margin-left: 13px;
+}
+
+.LeftAvatarBox p {
+    font-size: 24px;
+    white-space: nowrap;
+    margin-left: 13px;
+}
+
+.RightColumnFeed {
+    width: 75%;
+    margin: 10px;
+}
+
+.TopBoxPanel {
+    display:flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#likeNumber1, #likeNumber2, #likeNumber3  {
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+.names {
+    font-size: 24px;
+}
+
+.UserBox1 {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 4px solid black;
+}
+
+.BottomUserText {
+    font-size: 20px;
+}
+
+button {
+    padding: 8px 10px;
+    text-align: center;
+    background-color: goldenrod;
+    color: black;
+    font-size: 16px;
+    box-shadow: 8px 4px 4px black;
+}
