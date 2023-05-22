@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class = "title-bar">
+        <p class = "title-text">DojoWeather</p>
+        <ul class = "city-links">
+            <li><a href="#" onclick="LinkClick()">Burbank</a>
+            </li>
+            <li><a href="#" onclick="LinkClick()">Chicago</a>
+            </li>
+            <li><a href="#" onclick="LinkClick()">Dallas</a>
+            </li>
+        </ul>
+    </div>
+    <div class = "container">
+        <div class = "city-name-selectbox">
+            <h1>San Jose</h1>
+            <p>show temperature in</p>
+            <select name = "TempChanger" onchange="celTofar(this)">
+                <option>&degC</option>
+                <option>&degF</option>
+            </select>
+        </div>
+        <div class = "temperatureboxes">
+            <div class = "tempurature">
+                <p>Today</p>
+                <img src="./assets/some_rain.png" alt="some rain cloud">
+                <p>some rain</p>
+                <div class = "tempnumberbox">
+                    <p class = "tempnum1">24&deg</p>
+                    <p class = "tempnum2">18&deg</p>
+                </div> 
+            </div>
+            <div class = "tempurature">
+                <p>Tommorow</p>
+                <img src="./assets/some_sun.png" alt="some rain cloud">
+                <p>some sun</p>
+                <div class = "tempnumberbox">
+                    <p class = "tempnum3">27&deg</p>
+                    <p class = "tempnum4">19&deg</p> 
+                </div>
+            </div>
+            <div class = "tempurature">
+                <p>Friday</p>
+                <img src="./assets/some_clouds.png" alt="some rain cloud">
+                <p>some clouds</p>
+                <div class = "tempnumberbox">
+                    <p class = "tempnum5">21&deg</p>
+                    <p class = "tempnum6">16&deg</p>
+                </div>
+            </div>
+            <div class = "tempurature">
+                <p>Saturday</p>
+                <img src="./assets/some_sun.png" alt="some rain cloud">
+                <p>some sun</p>
+                <div class = "tempnumberbox">
+                    <p class = "tempnum7">26&deg</p>
+                    <p class = "tempnum8">21&deg</p>
+                </div>
+            </div>
+        </div>
+        <div class = "cookiebox">
+            <img class = "cookieimg" src="./assets/cookie.png" alt="cookie picture">
+            <div class = "cookietext">
+                <h2>Stop! Cookie time</h2>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <button onclick="cookieclick('.cookiebox')">I Accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
